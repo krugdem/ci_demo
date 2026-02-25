@@ -22,7 +22,7 @@ namespace ci_demo.tests
         public void Test1()
         {
             var calc = new Calc();
-            Assert.Equal(5, calc.Add(2, 2));
+            Assert.Equal(4, calc.Add(2, 2));
         }
     }
 }
