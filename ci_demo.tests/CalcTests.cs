@@ -17,5 +17,12 @@ namespace ci_demo.tests
             var calc = new Calc();
             Assert.Equal(first + second, calc.Add(first, second));
         }
+
+        [Fact]
+        public void Test1()
+        {
+            var calc = new Calc();
+            Assert.Equal(4, calc.Add(2, 2));
+        }
     }
 }
